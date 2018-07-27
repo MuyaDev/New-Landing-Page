@@ -1,0 +1,160 @@
+#background {
+  background-image: url(../img/Code.jpg);
+  background-size: cover;
+}
+
+#message {
+  background-color: #e63900;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+h1 {
+  font-family: 'Bungee Shade', cursive;
+  text-align: center;
+  font-size: 140px;
+  color: white;
+}
+
+.ribbon {
+  font-size: 30px !important;
+  width: 40%;
+  position: relative;
+  background-color: #0059b3;
+  color: #fff;
+  text-align: center;
+  padding: 1em 2em;
+  margin: 2em auto 3em;
+  font-family: 'Gaegu', cursive;
+}
+
+.ribbon:before,
+.ribbon:after {
+  content: "";
+  position: absolute;
+  display: block;
+  bottom: -1em;
+  border: 1.5em solid #0059b3;
+  z-index: -1;
+}
+
+.ribbon:before {
+  left: -2em;
+  border-right-width: 1.5em;
+  border-left-color: transparent;
+}
+
+.ribbon:after {
+  right: -2em;
+  border-left-width: 1.5em;
+  border-right-color: transparent;
+}
+
+.ribbon .ribbon-content:before,
+.ribbon .ribbon-content:after {
+  content: "";
+  position: absolute;
+  display: block;
+  border-style: solid;
+  border-color: #0059b3 transparent transparent transparent;
+  bottom: -1em;
+}
+
+.ribbon .ribbon-content:before {
+  left: 0;
+  border-width: 1em 0 0 1em;
+}
+
+.ribbon .ribbon-content:after {
+  right: 0;
+  border-width: 1em 1em 0 0;
+}
+
+#message.ribbon {
+  margin-top: 150px;
+}
+
+.column {
+  background-color: whitesmoke;
+  margin-left: 20px;
+  margin-right: 20px;
+  height: 300px;
+  text-align: center;
+}
+
+.column h2 {
+  padding-bottom: 50px;
+  padding-top: 90px;
+  font-family: 'Gaegu', cursive;
+  font-family: 'Hanalei Fill', cursive;
+  font-size: 60px;
+}
+
+#avatar img {
+  border-radius: 50%;
+  width: 300px;
+  height: 250px;
+  float: left;
+}
+
+#avatar.sidebar {
+  width: 350px;
+  border-style: groove;
+  box-shadow: 10px 10px 5px grey;
+  margin-top: 20px;
+  float: left;
+}
+
+figcaption {
+  display: inline-block;
+  font-size: 20px;
+  font-family: 'Gaegu', cursive;
+  font-family: 'Hanalei Fill', cursive;
+  font-family: 'Do Hyeon', sans-serif;
+}
+
+.sidebar {
+  float: right;
+  width: 30%;
+  background-color: bisque;
+  margin-top: 20px;
+  font-family: 'Gaegu', cursive;
+  font-size: 20px;
+  text-align: justify;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+  border: #000099;
+}
+
+a:hover {
+  background-color: yellow;
+}
+
+span:hover {
+  background-color: aqua;
+}
+
+u {
+  text-decoration: underline;
+}
+
+#about {
+  background-color: antiquewhite;
+  margin-top: 480px;
+}
+
+#about h2 {
+  text-align: center;
+  font-family: 'Gaegu', cursive;
+  font-family: 'Hanalei Fill', cursive;
+  font-size: 40px;
+}
+
+#about p {
+  font-family: 'Gaegu', cursive;
+  font-family: 'Hanalei Fill', cursive;
+  font-family: 'Do Hyeon', sans-serif;
+  font-size: 20px
+}
